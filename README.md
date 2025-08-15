@@ -3,9 +3,9 @@ Repository for the capstone projects on the Bootcamp
 
 ## Capstone Projects
 1. Resume (HTML)
-2. Personal Portfolio (HTML & CSS)
-3. Blog Web Application (Node.js)
-4. API Project (APIs)
+<!--- 2. Personal Portfolio (HTML & CSS) -->
+2. Blog Web Application (Node.js)
+3. API Project (APIs)
 
 ## Languages Learned:
 - HTML
