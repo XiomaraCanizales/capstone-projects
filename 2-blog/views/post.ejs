@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+
+<h1 class="mt-4">New Post</h1>
+<p>Create a new post here:</p>
+<form action="/posts" method="POST">
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" class="form-control" id="title" name="title" required>
+    </div>
+    <div class="form-group">
+        <label for="content">Content</label>
+        <textarea class="form-control" id="content" name="content" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-dark">Create Post</button>
+</form>
+
+<%- include('partials/footer') %>

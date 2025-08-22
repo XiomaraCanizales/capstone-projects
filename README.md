@@ -3,9 +3,20 @@ Repository for the capstone projects on the Bootcamp
 
 ## Capstone Projects
 1. Resume (HTML)
+
 <!--- 2. Personal Portfolio (HTML & CSS) -->
-2. Blog Web Application (Node.js)
-3. API Project (APIs)
+2. Blog Web Application
+    📇 Project Description
+    Create a Blog Web Application using Node.js, Express.js and EJS.
+    The application allow the users to create and view blog posts.
+    * Posts will not persists between sessions as no database will be used in this versio.
+
+    🧰 NPM packages used for this project:
+    - express & ejs
+    - body parser
+    - methodOverride
+
+<!-- 3. API Project (APIs) -->
 
 ## Languages Learned:
 - HTML
@@ -17,13 +28,13 @@ Repository for the capstone projects on the Bootcamp
 - Node.js
 - Express.js
 - EJS
+
+<!--- 
 - Git & GitHub
 - API's
 - Databases
 - SQL
 - PostgreSQL
-
-<!--- 
 - Authentication & Security 
 - React.js
 - Web3 Decentralised App (DApp)

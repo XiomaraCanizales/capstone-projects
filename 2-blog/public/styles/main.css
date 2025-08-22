@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display&display=swap');
+
+body {
+    font-family: 'Funnel Display', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
