@@ -6,15 +6,16 @@ Repository for the capstone projects on the Bootcamp
 
 <!--- 2. Personal Portfolio (HTML & CSS) -->
 2. Blog Web Application
-    📇 Project Description
+
+    - 📇 Project Description
     Create a Blog Web Application using Node.js, Express.js and EJS.
     The application allow the users to create and view blog posts.
     * Posts will not persists between sessions as no database will be used in this versio.
 
-    🧰 NPM packages used for this project:
-    - express & ejs
-    - body parser
-    - methodOverride
+    - 🧰 NPM packages used for this project:
+        - express & ejs
+        - body parser
+        - methodOverride
 
 <!-- 3. API Project (APIs) -->
 
