@@ -1,0 +1,32 @@
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center bg-light fixed-bottom pt-3">
+        <% if (locals.data) { %>
+            <p>Copyright <%= data.copyright %></p>
+        <% } %>
+    </footer>
+
+
+</body>
+<script>
+    function showErrorMessage() {
+        const errorDiv = document.getElementById('error-message');
+        const imageElement = document.getElementById('apod-image');
+        
+        // Hide the broken image icon
+        if (imageElement) {
+            imageElement.style.display = 'none';
+        }
+
+        // Show the custom error message
+        if (errorDiv) {
+            errorDiv.style.display = 'block';
+        }
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</html>

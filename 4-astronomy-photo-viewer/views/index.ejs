@@ -1,0 +1,30 @@
+<%- include('partials/header') %>
+            
+<% if (locals.data) { %>
+    <div class="col-lg-7">
+    <% if (data.media_type === "image") { %>
+        <img id="apod-image" class="img-fluid rounded"
+            src="<%= data.url %>" alt="<%= data.title %>"
+            onerror="showErrorMessage()"
+        >
+    <% } %>
+
+    <% if (data.media_type === "video" || data.media_type === "other") { %>
+        <iframe width="560" height="315" src="<%= data.url %>" frameborder="0" allowfullscreen></iframe>
+    <% } %>
+    </div>
+
+    <div class="col-lg-5 text-md-left">
+        <h2 class="mb-3"><%= data.title %></h2>
+        <p><%= data.explanation %></p>
+        <p><strong>The date of the APOD image:</strong> <%= data.date %></p>
+    </div>
+        
+<% } %>
+
+<div id="error-message" style="display:none; text-align:center; color:red;">
+    <p>This content could not be displayed. It may be due to browser security settings or extensions.</p>
+    <p>Please try a different browser or check your extensions.</p>
+</div>
+
+<%- include('partials/footer') %>

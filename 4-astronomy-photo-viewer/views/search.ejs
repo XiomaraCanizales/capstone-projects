@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+
+<div class="col-md-6 text-center">
+    <h2>Search for image</h2>
+    <div class="form-container">
+        <form action="/post-photo" method="get" id="form" class="form">
+            <label for="calendar" class="form-label">Date to search:</label>
+            <input type="date" class="form-control" id="calendar" name="date" required>
+            <button type="submit" class="btn">Search</button>
+        </form>
+    </div>
+</div>
+
+
+<%- include('partials/footer') %>
+
+

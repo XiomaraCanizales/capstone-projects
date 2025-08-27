@@ -25,19 +25,20 @@ The application allow the users to create and view blog posts.<br>
 - body parser
 - methodOverride
 
-### 4. Holidays Site ~API Project (APIs)
+### 4. Daily Astronomy Photo Viewer Site ~API Project (APIs)
 #### 🔖 Requirements
 Build a website using the Express/Node.js platform, with the Axios HTTP client, that integrates a chosen public API.
 The website should interact with the chosen API, retrieve data, and present it in a user-friendly manner.
 
 #### 📇 Project Description
-This project is a web application designed to help users discover holidays. Using Node.js and the Express framework, the site will act as a server to handle requests from the front end.<br>
+This capstone project is a web application that serves as a Daily Astronomy Photo Viewer. The application uses Node.js with the Express framework to build a backend server, and Axios to handle API requests. The core of the project is the integration with NASA's Astronomy Picture of the Day (APOD) API.<br>
+Key features of the application include:
 
-The application will feature two main functionalities:
-- Today's Holiday: The home page will automatically display information about any holidays being celebrated on the current date. This provides immediate, relevant information to the user upon arrival.
-- Holiday Search: A user-friendly form will allow users to search for holidays based on specific criteria, such as a date, country, or year. The application will process this search query, make a call to the Holiday API, and then render the results on the web page.<br>
+- Daily APOD Display: The home page will showcase the latest APOD, including its title, a detailed explanation from NASA, and copyright information. This will provide users with fresh content every day.
 
-#### 🧰 Tools used
+- Random Image: The site will allow to display a random image from the api.
+
+- Historical Exploration: The site will include a feature that allows users to select a specific date and view the APOD from that day. This demonstrates the ability to handle user input and dynamically fetch data.
 
 ## Languages Learned
 - HTML
