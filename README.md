@@ -52,11 +52,10 @@ Key features of the application include:
 - EJS
 - Git & GitHub
 - API's
-
-<!--- 
 - Databases
 - SQL
 - PostgreSQL
+<!--- 
 - Authentication & Security 
 - React.js
 - Web3 Decentralised App (DApp)
